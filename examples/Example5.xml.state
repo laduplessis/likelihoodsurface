@@ -1,0 +1,4 @@
+<itsabeastystatewerein version='2.0' sample='100'>
+<statenode id='R0'>R0[1 1] (-Infinity,Infinity): 4.85 </statenode>
+<statenode id='becomeUninfectiousRate'>becomeUninfectiousRate[1 1] (-Infinity,Infinity): 5.0 </statenode>
+</itsabeastystatewerein>
