@@ -16,6 +16,3 @@ There are a couple of examples in the examples folder:
 - Example 3: Accessing specific indices of multidimensional parameters
 - Example 4: Like example 3
 - Example 5: Evaluating a list of specific values instead of a sequence (not necessarily monotonic or with equal increments in-between)
-
-![Test](examples/Example1.pdf)
-
