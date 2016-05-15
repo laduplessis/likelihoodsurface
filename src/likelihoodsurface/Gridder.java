@@ -29,8 +29,12 @@ public class Gridder extends BEASTObject {
     public final Input<Double> byInput = new Input<>("by", "Step-size",
             Input.Validate.XOR, valuesInput);
 
+    public final Input<Integer> indexInput = new Input<>("index", "Dimension of the parameter to modify",
+            new Integer(0));
+
     double [] values;
     int index;          // Current index of the gridder
+    int parameterIndex; // Index of parameter to modify
 
     public void initAndValidate() {
 
@@ -59,7 +63,7 @@ public class Gridder extends BEASTObject {
      * @param index
      */
     public void setParameter(int index) {
-        parameterInput.get().setValue(this.getValue(index % this.getDimension()));
+        parameterInput.get().setValue(this.indexInput.get(), this.getValue(index % this.getDimension()));
     }
 
     /**

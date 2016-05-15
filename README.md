@@ -1,6 +1,6 @@
 # BEAST2 likelihood surface
 
-Evaluate pre-specified points on the likelihood surface
+Evaluate pre-specified points on the likelihood surface. Good for investigating smoothness/roughness of a model's likelihood surface, parameter correlations and numerical errors (underflow/overflow)
 
 - As with MCMC the state specifies all the parameters that are to be modified
 
