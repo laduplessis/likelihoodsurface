@@ -1,0 +1,6 @@
+<itsabeastystatewerein version='2.0' sample='310800'>
+<statenode id='R0'>R0[1 1] (-Infinity,Infinity): 4.85 </statenode>
+<statenode id='becomeUninfectiousRate'>becomeUninfectiousRate[1 1] (-Infinity,Infinity): 4.85 </statenode>
+<statenode id='samplingProportion'>samplingProportion[1 1] (-Infinity,Infinity): 1.0 </statenode>
+<statenode id='origin'>origin[1 1] (-Infinity,Infinity): 30.0 </statenode>
+</itsabeastystatewerein>

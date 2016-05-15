@@ -1,0 +1,4 @@
+<itsabeastystatewerein version='2.0' sample='360'>
+<statenode id='R0'>R0[2 1] (-Infinity,Infinity): 4.85 1.0 </statenode>
+<statenode id='samplingProportion'>samplingProportion[2 1] (-Infinity,Infinity): 0.9000000000000001 0.8 </statenode>
+</itsabeastystatewerein>
